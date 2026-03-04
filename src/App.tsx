@@ -140,7 +140,7 @@ export default function App() {
       <footer className="border-t border-black/[0.05] dark:border-white/[0.04] mt-auto">
         <div className="max-w-3xl mx-auto px-5 sm:px-8 py-5 flex items-center justify-between">
           <span className="text-[11px] text-[--text-4]">
-            Generated with Gemini 2.5 Flash · Works of fiction
+            Stories Generated with Gemini 2.5 Flash · Works of fiction
           </span>
           <span className="text-[11px] text-[--text-4]">🌙</span>
         </div>
