@@ -1,0 +1,18 @@
+{
+  "name": "nightly-tales-scripts",
+  "private": true,
+  "version": "0.0.1",
+  "type": "commonjs",
+  "scripts": {
+    "generate": "ts-node generate-story.ts"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "resend": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
