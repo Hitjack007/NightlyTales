@@ -42,7 +42,7 @@ jobs:
         run: |
           git config user.name "Nightly Tales Bot"
           git config user.email "nightly-tales-bot@users.noreply.github.com"
-          git add stories/
+          git add public/stories/
           # Only commit if there are changes
           if git diff --staged --quiet; then
             echo "No changes to commit (story may already exist for today)"

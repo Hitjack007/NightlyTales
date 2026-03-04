@@ -24,7 +24,7 @@ const GENRES = [
 type Genre = typeof GENRES[number]
 
 // Path to stories/ relative to this script (one level up from scripts/)
-const STORIES_DIR = path.join(__dirname, '..', 'stories')
+const STORIES_DIR = path.join(__dirname, '..', 'public', 'stories')
 const INDEX_PATH = path.join(STORIES_DIR, 'index.json')
 
 // ── Helpers ──────────────────────────────────────────────────────────────────
